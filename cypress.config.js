@@ -3,6 +3,7 @@ const oracledb = require('oracledb')
 
 module.exports = defineConfig({
   env: {
+    baseUrl: 'https://tech-global-training.com/students',
     'oracleDb' : {
       'user': 'techglobaldev',
       'password': '$techglobaldev123!',
